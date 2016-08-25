@@ -50,11 +50,11 @@ end
 
 ## Customize the Menu
 
-See the [Menu](2-resource-customization.md#customize-the-menu) documentation.
+See the [Menu](2-resource-customization#customize-the-menu) documentation.
 
 ## Add a Sidebar
 
-See the [Sidebars](7-sidebars.md) documentation.
+See the [Sidebars](7-sidebars) documentation.
 
 ## Add an Action Item
 
