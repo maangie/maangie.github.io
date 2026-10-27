@@ -52,7 +52,7 @@ end
 ```
 
 Active Admin does not limit the index page to be a table, block, blog or grid.
-If you've [created your own index page](3-index-pages/create-an-index.md) it
+If you've [created your own index page](3-index-pages/create-an-index) it
 can be included by setting `:as` to the class of the index component you created.
 
 ```ruby
