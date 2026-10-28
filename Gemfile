@@ -1,2 +1,6 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+gem 'jekyll', '4.1.1'
+gem 'webrick'
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'

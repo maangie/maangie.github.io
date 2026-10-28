@@ -148,7 +148,7 @@ When you have dynamic form inputs you can pass a proc instead:
 
 ```ruby
 # NOTE: multi-pluck is new to Rails 4
-batch_action :doit, form: ->{{user: User.pluck(:name, :id)}} do |ids, inputs|
+batch_action :doit, form: ->{% raw %}{{user: User.pluck(:name, :id)}}{% endraw %} do |ids, inputs|
   User.find(inputs[:user])
   # ...
 end
