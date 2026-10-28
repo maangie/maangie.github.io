@@ -1,7 +1,9 @@
 # [activeadmin.info](http://activeadmin.info) のコンテンツ
 
 このリポジトリは [activeadmin.info](http://activeadmin.info) のコンテンツを収録しています。
-サイトは [Jekyll](https://jekyllrb.com/) で生成する静的サイトで、GitHub Pages で公開されます。
+サイトは [Jekyll](https://jekyllrb.com/) で生成する静的サイトで、<https://maangie.github.io/> で公開されます。
+
+`activeadmin.info` のドメインは、現在 [activeadmin/activeadmin](https://github.com/activeadmin/activeadmin) の Pages が使っています。
 
 ## ディレクトリ構成
 
@@ -14,8 +16,7 @@
 | `stylesheets/` | スタイルシート |
 | `index.html` | トップページ |
 | `404.html` | 404 ページ |
-| `CNAME` | 独自ドメイン(`activeadmin.info`)の設定 |
-| `_config.yml` | Jekyll の設定(Markdown 処理は redcarpet、シンタックスハイライトは rouge) |
+| `_config.yml` | Jekyll の設定(Markdown 処理は kramdown、シンタックスハイライトは rouge) |
 
 ## ローカルでの確認方法
 
